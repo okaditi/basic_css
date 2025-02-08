@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+
+    <style>
+        /* used to select all the groups at once (*) */
+        *{
+            background-color: lightblue;
+        }
+        
+        /* here h1 is a selector */
+        h1{  
+            color: red;   /*this is the declaration*/
+        }
+        
+        /* here the div is also a selector */
+        div{
+            background-color: antiquewhite;
+        }
+
+        /* a group selector is used to apply the style to different groups at once*/
+        div, h1{
+            background-color: beige;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            <h1>This is my CSS Selector page.</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sit aspernatur, molestiae repudiandae eveniet magnam animi molestias optio libero itaque ut ea ab reprehenderit voluptate inventore temporibus vero odit neque placeat sapiente minus fugiat?
+        </p>
+    </div>
+</body>
+</html>
