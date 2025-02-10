@@ -1,0 +1,25 @@
+/* there are three different types of values for colour
+1) rgb = the most common one - means red green blue and displays the 
+   value of amount of red green blue present in the color chosen (215,147,147) etc
+2) HEX = the second most used - it displays a code in the syntax (#f7180) etc
+3) HSL = not commonly used - stands for hue, saturation and lightness 
+   syntax as hsl(8,90%,20%)   
+   
+   we also have rgba and HSLA but its not rarely used by beginners
+   A stands for alpha- alpha is the darkness of the color*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.red{
+    background-color: rgba(255, 0, 0, 0.514);
+    color: white;
+    height: 50px;
+}
+
+.green{
+    background-color: green;
+    color: rgb(215, 147, 147);
+}
