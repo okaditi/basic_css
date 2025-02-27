@@ -4,11 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Units</title>
+    <style>
+
+        /* we use rem and em to size a particular element wrt another element. for example we set .html{font-size: 45px;} and write .box{font-size: 3rem;}
+        it means that the size of the box will be thrice wrt html 
+        rem is only used for comparision w html and em is used for comparing w the rest elements like example gievn below 
+
+        .container{
+            font-size: 4px;
+        }
+        .box{
+            font-size: 3em;
+        }*/
+
+        .box{
+            background-color: red;
+        }
+
+        .box2{
+            background-color: aquamarine;
+            width: 334px;
+        }
+
+    </style>
 </head>
 <body>
     <div class="container">
         <p>Lorem ipsum dolor sit amet.</p>
-        <div class="box"></div>
+
+        <div class="box">
+            Lorem ipsum dolor sit amet.
+        </div>
+
+        <div class="box2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque placeat praesentium quis?
+        </div>
     </div>
 </body>
 </html>

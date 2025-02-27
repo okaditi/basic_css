@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            display: inline;
+        }
+        header{
+            background-color: black;
+            color: antiquewhite;
+            height: 70px;
+        }
+        p{
+            text-align: center;
+            border: 2px solid red;
+        }
+        .container{
+            background-color: aqua;
+            height: 50vh;
+            width: 50vb;
+            margin: auto;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color:blanchedalmond;
+            position: relative;
+            top: 58px;
+        }
+        .box2{
+            height: 200px;
+            width: 200px;
+            background-color:burlywood;
+            position: relative;
+            /* position: absolute; */
+            top: 58px;
+        }
+        /* positions are- 
+        sticky : jab upar ka nav bar nhi hatt jata agar neeche scroll krte hai wahi pe rehta hai usko sticky bolte 
+        fixed : jab kabhi kabhi chat with us dikhta hai sites joh scroll krne pe bhi wahi hota h 
+        z index : isko dene se hume pta chalta hai konsi cheez upar rehni chahiye and konsi neeche, jaise nav bar hamesha overlap krna chahiye baki elements ko (stack order of elements)*/
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt esse accusamus quasi asperiores, repellendus cupiditate?</p>
+        <div class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, nulla.
+        </div>
+        <div class="box2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iure accusamus harum deleniti, vitae fugit.
+        </div>
+    </div>
+</body>
+</html>
